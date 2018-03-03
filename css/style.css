@@ -1,0 +1,100 @@
+/* FONTS */
+.perm-font{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 48px;
+}
+.sans-font{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* NAV */
+.navbar{
+  text-align: center;
+  margin: 20px auto;
+}
+.logo{
+  width: 300px;
+  margin: 0 100px;
+}
+.link{
+  font-size:32px;
+  color: black;
+}
+
+/* MAIN */
+#name{
+  padding: 20px auto;
+}
+.main-content{
+  padding-top: 30px;
+  text-align: center;
+  position: relative;
+  top: 500px;
+  background: linear-gradient(rgba(255,255,255, .001), white) cover;
+}
+.ig{
+  display: inline-block;
+  padding-top: 30px;
+}
+
+/* GALLERIES */
+.section{
+  text-align: center;
+  margin: 100px 0;
+}
+.section-title{
+  text-decoration: underline;
+  margin: 20px 0;
+  padding-top: 20px;
+}
+.section-info{
+  margin: 0 100px;
+  text-align: center;
+}
+.thumbnails{
+  margin: 20px 0;
+}
+.doodle{
+  display: inline-block;
+  width: 150px;
+  margin: 2px 2px;
+}
+
+
+/* RESPONSIVE */
+@media only screen and (min-width: 776px){
+  .main-section{
+    background: linear-gradient(rgba(255,255,255,0) 70%,rgba(255,255,255,1)), url(../images/169_1.jpg) no-repeat center bottom;
+    background-size:cover;
+    height: 700px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 775px){
+  .navbar li{
+    display: block;
+  }
+  .logo{
+    margin: 20px auto;
+    width: 200px;
+  }
+  .web-info{
+    margin: auto;
+  }
+  #box{
+    background: linear-gradient(rgba(255,255,255,0) 70%,rgba(255,255,255,1)), url(../images/169_1.jpg) no-repeat center bottom;
+    height: 300px;
+    width: auto;
+    background-size: cover;
+  }
+  .main-content{
+    position: static;
+  }
+  .ig{
+    margin: 0;
+  }
+  .section-title{
+    margin: 0 0 30px 0;
+  }
+}
